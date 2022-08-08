@@ -1,0 +1,337 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ko' Physical Memory: 14020 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/6800U/Desktop/Unity/TopDown2DGame/TopDown2DGame
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50912
+Successfully changed project path to: C:/Users/6800U/Desktop/Unity/TopDown2DGame/TopDown2DGame
+C:/Users/6800U/Desktop/Unity/TopDown2DGame/TopDown2DGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 92.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/6800U/Desktop/Unity/TopDown2DGame/TopDown2DGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1681)
+    Vendor:   ATI
+    VRAM:     7010 MB
+    Driver:   30.0.14044.3001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004026 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.573 seconds
+Domain Reload Profiling:
+	ReloadAssembly (574ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (427ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (88ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005992 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\6800U\Desktop\Unity\TopDown2DGame\TopDown2DGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\6800U\Desktop\Unity\TopDown2DGame\TopDown2DGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 97.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1288ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (125ms)
+		EndReloadAssembly (965ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (553ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4564 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (293.3 KB). Loaded Objects now: 5015.
+Memory consumption went from 174.7 MB to 174.4 MB.
+Total: 4.273300 ms (FindLiveObjects: 0.463900 ms CreateObjectMapping: 0.132500 ms MarkObjects: 3.397000 ms  DeleteObjects: 0.278500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 175035.288963 seconds.
+  path: Assets/Art/rpg-pack/tiles/atlas_26.asset
+  artifactKey: Guid(1c7da66efdbc8454fb689f83c5bbd167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rpg-pack/tiles/atlas_26.asset using Guid(1c7da66efdbc8454fb689f83c5bbd167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079d37ffa9938554f71a4e74c322bc67') in 0.131292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/rpg-pack/tiles/atlas_34.asset
+  artifactKey: Guid(ea50aae8fbd2e604c98cb4fea087a28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rpg-pack/tiles/atlas_34.asset using Guid(ea50aae8fbd2e604c98cb4fea087a28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211fce83ccd8c96ea59f14d8b562aef1') in 0.021813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/rpg-pack/tiles/atlas_31.asset
+  artifactKey: Guid(044625917ba060e4a8a2e62eae745cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rpg-pack/tiles/atlas_31.asset using Guid(044625917ba060e4a8a2e62eae745cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3dde99a931ad55c025d426d0f43bad0') in 0.018731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/rpg-pack/tiles/atlas_47.asset
+  artifactKey: Guid(3c44da28dae4daf4ab9f1ba7019b7375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rpg-pack/tiles/atlas_47.asset using Guid(3c44da28dae4daf4ab9f1ba7019b7375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b94dad4e0056b9d98a32199e39d77e1') in 0.014750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/rpg-pack/tiles/atlas_12.asset
+  artifactKey: Guid(069c2d6194de9604ba93bbf0858b4e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rpg-pack/tiles/atlas_12.asset using Guid(069c2d6194de9604ba93bbf0858b4e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44737d132ff5493e55a952c8d2057559') in 0.016316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/rpg-pack/tiles/atlas_2.asset
+  artifactKey: Guid(2a358b6cb34b5bc4d809ce66e7bf08ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rpg-pack/tiles/atlas_2.asset using Guid(2a358b6cb34b5bc4d809ce66e7bf08ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb71287e1c1dcbae18cb4fe16cafc877') in 0.012821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/rpg-pack/tiles/atlas_20.asset
+  artifactKey: Guid(e3c35b933e139304ab844709bfafd36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rpg-pack/tiles/atlas_20.asset using Guid(e3c35b933e139304ab844709bfafd36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6b732ff3107415931d2fb3db05a964') in 0.016265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/rpg-pack/tiles/atlas_43.asset
+  artifactKey: Guid(e5d18ebeb2d9ede47898d0cf6bdd5b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rpg-pack/tiles/atlas_43.asset using Guid(e5d18ebeb2d9ede47898d0cf6bdd5b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97219a2e3de294b7fc4daa5e3d037d40') in 0.015863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/rpg-pack/tiles/atlas_3.asset
+  artifactKey: Guid(f808fb23a2cc29643b83a22ecee646a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rpg-pack/tiles/atlas_3.asset using Guid(f808fb23a2cc29643b83a22ecee646a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a974ea7a08421ea8b4547982f5a713') in 0.011952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/rpg-pack/tiles/atlas_32.asset
+  artifactKey: Guid(27f277b95f45076489c74dfd4038c83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rpg-pack/tiles/atlas_32.asset using Guid(27f277b95f45076489c74dfd4038c83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442ce4f5eec6d41e19163682dd8a56a0') in 0.014343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/rpg-pack/tiles/atlas_4.asset
+  artifactKey: Guid(240e482df5be6e84c910b0064b8aea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rpg-pack/tiles/atlas_4.asset using Guid(240e482df5be6e84c910b0064b8aea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebda29065e0aecb88c0ddb0eff10db0f') in 0.014923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/rpg-pack/tiles/atlas_15.asset
+  artifactKey: Guid(7e7074aa39b4ece49b9a6d4daf1dfd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rpg-pack/tiles/atlas_15.asset using Guid(7e7074aa39b4ece49b9a6d4daf1dfd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabc62bf9f969e3cc4211583f6a72704') in 0.011023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/rpg-pack/tiles/atlas_6.asset
+  artifactKey: Guid(06487a9b3bf4e5944800a5eb65ae40f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rpg-pack/tiles/atlas_6.asset using Guid(06487a9b3bf4e5944800a5eb65ae40f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c06e9d98adfd418797ac72d43faba82') in 0.015182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 680.864228 seconds.
+  path: Assets/Art/knight/_Attack2.png
+  artifactKey: Guid(c478c3b5ae973fe45b50f84e11ed56c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_Attack2.png using Guid(c478c3b5ae973fe45b50f84e11ed56c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097b611a74afb4e4c82457ae04c1a568') in 0.088165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Art/knight/_SlideAll.png
+  artifactKey: Guid(5e4322de016593f45b52da6fcd2f5469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_SlideAll.png using Guid(5e4322de016593f45b52da6fcd2f5469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8c1e4f924877e9dbb14fa1793b13b0') in 0.027113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/knight/_Crouch.png
+  artifactKey: Guid(944ba649fa2a8fb46b577660468a0174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_Crouch.png using Guid(944ba649fa2a8fb46b577660468a0174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596e93b1d86cd2511f74dc79aadb8bf5') in 0.025094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/knight/_Slide.png
+  artifactKey: Guid(ed65c651c61030c48add2dcf6b572490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_Slide.png using Guid(ed65c651c61030c48add2dcf6b572490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab31d67373defb3d4c574992a1cf01d') in 0.027383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/knight/_CrouchTransition.png
+  artifactKey: Guid(5c539b91c4410f844b53a877a882aa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_CrouchTransition.png using Guid(5c539b91c4410f844b53a877a882aa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd5e15d66e370d0831c905d7a9854b9') in 0.019133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/knight/_AttackNoMovement.png
+  artifactKey: Guid(0b201cf9adbfe324e84bf8dede84db35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_AttackNoMovement.png using Guid(0b201cf9adbfe324e84bf8dede84db35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5f3cc8b0a315afef8e2017e2da2582') in 0.023013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/knight/_Idle.png
+  artifactKey: Guid(d35e4a8550fcb244ead8cca8b22bddc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_Idle.png using Guid(d35e4a8550fcb244ead8cca8b22bddc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2fd1d8d03133d927ab1d1f2d2ca9bf') in 0.052723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/knight/_Fall.png
+  artifactKey: Guid(4762c037fd85e6646a49ed1d9e3a6977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_Fall.png using Guid(4762c037fd85e6646a49ed1d9e3a6977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d7a2b7e510eadfbabd0e130d2f287e') in 0.029521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/knight/_TurnAround.png
+  artifactKey: Guid(ed205cbf6bc74e44d85b7842e62f0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_TurnAround.png using Guid(ed205cbf6bc74e44d85b7842e62f0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc530cf3a4e613dccf9918b8088fbb9c') in 0.020547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/knight/_WallHang.png
+  artifactKey: Guid(05d9aa5ed2589af448705b7355ac3ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_WallHang.png using Guid(05d9aa5ed2589af448705b7355ac3ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339faa9c1c7a76b65c42fce8e2dc72cc') in 0.021521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/knight/_CrouchAll.png
+  artifactKey: Guid(2acf975227dafe44e91e88b34b2c63c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_CrouchAll.png using Guid(2acf975227dafe44e91e88b34b2c63c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d52152957af4861ff7dcccd69694ce') in 0.022914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/knight/_AttackComboNoMovement.png
+  artifactKey: Guid(6af9ff14b5a023a47bdd16b332fda009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_AttackComboNoMovement.png using Guid(6af9ff14b5a023a47bdd16b332fda009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1ef047ed1643c9f590d583d00744eb') in 0.027168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/knight/_Roll.png
+  artifactKey: Guid(38c2b17a0b441a64795235aba3e83bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_Roll.png using Guid(38c2b17a0b441a64795235aba3e83bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec9348796da6700b805cafa8fd466c4') in 0.032596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/knight/_Run.png
+  artifactKey: Guid(61c3eb1a0d2e7b745898a31c2773098f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/knight/_Run.png using Guid(61c3eb1a0d2e7b745898a31c2773098f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68b389d230409f439137215aa93e8c2') in 0.028301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.389849 seconds.
+  path: Assets/Characters/Player/Player.prefab
+  artifactKey: Guid(5c3b1b2f8362a1a47b2986abe10c2bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Player/Player.prefab using Guid(5c3b1b2f8362a1a47b2986abe10c2bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267b26de9b92f4fdd453417ec513209d') in 0.076483 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
